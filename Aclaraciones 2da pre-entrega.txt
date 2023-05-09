@@ -1,0 +1,10 @@
+Aclaraciones 2da pre-entrega:
+
+- En "Ofertas" al desplegar el "Inicio" falta agregar una sección, que tengo que terminar de definir con la dueña del local. Dejé el lugar para completar.
+- Las fotos van a ser modificadas. Voy a cambiar las de los productos por fotos reales creadas por mí y fotos del local en el .html de "Cómo llegar", pero falta editarlas así que estarán en el proyecto para la próxima entrega.
+- Los .html "Sobre Nosotros" y "Cómo llegar" aún no son responsive (en parte porque falta definir qué secciones van a ir en funcion de las imágenes que decida poner).
+
+Dudas:
+- Agregué Bootstrap en el Nav pero no encuentro la forma de poner el título "Small Paws Estética Canina" encima de las opciones del Nav (encima de Inicio - Servicios - Sobre Nosotros - etc) y al lado del logo superior.
+- Me quedan desprolijos los íconos del pié de página (consultar medios de pago y seguridad de datos), los de "Cómo llegar", en la dirección y calendario, y los de "Contactanos" (Whatsapp, Mail e Instagram). No encuentro cómo acomodarlos correctamente o si es que existe otro método.
+- Al poner href en el link donde dice "Inicio" con un despegable, para que al tocar ahí vuelva al index, no me lo toma.
