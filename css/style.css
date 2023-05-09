@@ -1,0 +1,941 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Neucha', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+
+/*----------------------BOTON WPP----------------------*/
+.wpp-fixed {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+/*-------------------------HEADER------------------------------*/
+
+header {
+    z-index: 2px;
+}
+
+nav {
+    background-color: #293241;
+    color: #dab785;
+    -webkit-box-shadow: inset -9px -74px 38px -76px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -9px -74px 38px -76px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -9px -74px 38px -76px rgba(0, 0, 0, 0.75);
+}
+
+header nav a img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.nav-item .nav-link {
+    color: #dab785;
+    font-size: x-large;
+    text-align: center;
+    border-right: #dab785;
+}
+
+.nav-item .nav-link:hover {
+    color: #293241;
+    background-color: #dab785e3;
+    border-color: #dab785;
+    transition: all 1s;
+}
+
+.btn {
+    color: #dab785;
+    border-color: #dab785;
+}
+
+.btn:hover {
+    color: #293241;
+    background-color: #dab785;
+    transition: all 1s ease;
+    cursor: pointer;
+
+}
+
+/*-------------------------------MAIN-INDEX-------------------------------*/
+
+.hero {
+    background-image: url("../img/fondo-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.introduccion {
+    width: 50%;
+}
+
+.introduccion h3 {
+    color: #101723;
+    font-size: 340%;
+    font-weight: bold;
+    margin: 6% 6% 0% 4%;
+}
+
+.introduccion p {
+    font-size: 250%;
+    text-align: center;
+}
+
+.reserva {
+    margin-bottom: 2%;
+    margin-right: 10%;
+    width: 30%;
+    margin-top: 7%;
+}
+
+.reserva a {
+    font-size: 300%;
+    color: #dab785;
+    border-color: #293241;
+    background-color: #293241b4;
+}
+
+.reserva a:hover {
+    background-color: #1d2534;
+    color: #dab785;
+    transition: all 1s ease;
+    box-shadow: 14px 13px 16px -5px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 14px 13px 16px -5px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 14px 13px 16px -5px rgba(0, 0, 0, 0.7);
+}
+
+/*------------------------SEGUNDA SECCIÓN INDEX------------------------*/
+
+.inauguracion {
+    background-color: #293241;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    -webkit-box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
+}
+
+.texto-inauguracion {
+    color: #dab785;
+    font-size: x-large;
+    width: 140%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-inauguracion h3 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 5%;
+
+}
+
+.texto-inauguracion p {
+    margin-bottom: 3%;
+}
+
+.texto-inauguracion h4 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.perrito-lentes-amarillos {
+    width: 65%;
+    height: 65%;
+    display: flex;
+    justify-content: start;
+}
+
+.perro-gafas-verdes {
+    width: 110%;
+    height: 110%;
+    display: flex;
+    justify-content: end;
+}
+
+/*-----------------------------SERVICIOS----------------------------*/
+
+.servicios {
+    height: 60%;
+    background-color: #dab785;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    -webkit-box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75);
+}
+
+.accordion{
+    width: 60%;
+}
+
+.accordion-item{
+    color: #dab785;
+    background-color: #293241;
+    width: 100%;
+}
+
+.accordion-button{
+    font-size: x-large;
+    background-color: #dab785;
+    color: #293241;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #dab785;
+    color: #293241;
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: #293241;
+}
+
+.accordion-body{
+    font-size: x-large;
+}
+
+.servicios div img {
+    width: 80%;
+    height: 80%;
+}
+
+.lista-servicios {
+    font-size: x-large;
+    text-align: left;
+    margin-left: 6%;
+    margin-bottom: 6%;
+}
+
+.servicios h4 {
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+.lista-servicios ul li {
+    list-style: none;
+}
+
+.texto-servicios {
+    text-align: center;
+    margin: 8% 6% 10%;
+}
+
+.texto-servicios p {
+    font-size: x-large;
+    text-align: center;
+}
+
+
+/*-----------------------------PRODUCTOS----------------------------*/
+
+
+.productos h3 {
+    font-size: xx-large;
+    text-align: center;
+    padding: 2%;
+    background-color: #101723;
+    color: #dab785;
+}
+
+.tarjetas-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4%;
+    padding: 0% 6% 4% 6%;
+    font-size: 130%;
+    background-color: #101723;
+    color: #dab785;
+    justify-items: center;
+}
+
+.tarjetitas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5%;
+    border: #dab785 solid;
+}
+
+.tarjetitas img {
+    width: 100%;
+    height: 80%;
+    border: #dab785 solid;
+}
+
+.tarjetitas h3 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+/*----------------------GALERÍA GRIDS----------------------*/
+
+.grid-galeria {
+    width: 100%;
+    height: 70%;
+    background-color: #dab785;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 30%;
+    gap: 1.5%;
+    padding: 3%;
+}
+
+.img1 {
+    grid-column: span 2;
+}
+
+.img6 {
+    grid-column: span 2;
+}
+
+.img7 {
+    grid-column: span 2;
+}
+
+.grid-galeria div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-box-shadow: 10px 10px 18px -1px rgba(71, 71, 71, 1);
+    -moz-box-shadow: 10px 10px 18px -1px rgba(71, 71, 71, 1);
+    box-shadow: 10px 10px 18px -1px rgba(71, 71, 71, 1);
+}
+
+/*---------------------------SOBRE NOSOTROS----------------------------*/
+
+.presentacion {
+    background-color: #101723;
+    color: #dab785;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+}
+
+.presentacion div {
+    margin-top: 12%;
+    width: 70%;
+}
+
+.presentacion div h3 {
+    font-size: 250%;
+}
+
+.presentacion div p {
+    font-size: x-large;
+    margin-top: 4%;
+}
+
+.presentacion img {
+    height: 108%;
+}
+
+/*------------------------CÓMO LLEGAR--------------------------*/
+
+.como-llegar {
+    background-color: #dab785;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.como-llegar div iframe {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    border-color: #101723;
+}
+
+.info-ubicacion {
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    border: 5px;
+    border: #101723;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: #101723;
+    color: #dab785;
+    padding: 2.5%;
+    margin-bottom: 10%;
+    border-radius: 10%;
+    border-style: ridge;
+}
+
+.info-ubicacion div {
+    margin-bottom: 5%;
+    border-bottom: #171c25;
+}
+
+.info-ubicacion div p {
+    font-size: x-large;
+}
+
+.info-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-info div{
+    margin: 4%;
+}
+
+.icons{
+    margin-bottom: 100%;
+}
+
+/*---------------------------CONTACTO----------------------------*/
+
+.contacto {
+    background-color: #101723;
+    color: #dab785;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: x-large;
+}
+
+.contacto h3 {
+    font-size: xx-large;
+    margin-bottom: 5%;
+}
+
+.contacto a,
+.contacto p {
+    color: #dab785;
+    margin: 3%;
+}
+
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-icons{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.icons-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form{
+    width: 50%;
+    padding-left: 10%;
+    border-left: 1px solid rgb(73, 71, 71);
+}
+
+/*---------------------------FOOTER----------------------------*/
+
+footer {
+    background-color: #293241;
+}
+
+.footer-principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo-inf {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+.medios-de-pago {
+    display: flex;
+
+}
+
+.img-footer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.volver-arriba {
+    background-color: #dab785;
+    width: 100px;
+    border-radius: 10%;
+    color: #293241;
+    padding: 1%;
+}
+
+.icons {
+    width: 25px;
+    height: 25px;
+}
+
+.derechos-de-autor {
+    background-color: #252d3b;
+    color: #dab785;
+    text-align: center;
+}
+
+/*---------------ESTILOS EN COMÚN DE LOS DEMÁS .INDEX-----------------*/
+
+h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: #1f2632;
+    background-color: #dab785;
+    padding: 1.5%;
+    margin: 0%;
+}
+
+h3,
+p {
+    margin: 0%;
+}
+
+/*---------------------------MEDIA QUERIS----------------------------*/
+
+@media screen and (max-width:1075px) {
+    .introduccion h3 {
+        font-size: 270%;
+    }
+
+    .introduccion p {
+        font-size: 200%;
+    }
+
+    .lista-servicios {
+        margin-bottom: 2%;
+    }
+
+    .texto-servicios {
+        margin-bottom: 7%;
+    }
+
+    .wpp-fixed {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .texto-inauguracion {
+        font-size: larger;
+
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .introduccion {
+        width: 60%;
+    }
+
+    .introduccion h3 {
+        font-size: 260%;
+        padding-bottom: 4%;
+    }
+
+    .introduccion p {
+        width: 70%;
+        background-color: #dab785;
+        transition: 2s;
+        margin-left: 14%;
+        padding: 1%;
+        font-size: 180%;
+    }
+
+    .reserva a {
+        font-size: 250%;
+        margin-top: 2%;
+    }
+
+    .perrito-lentes-amarillos {
+        display: none;
+    }
+
+    .texto-inauguracion {
+        margin-left: 4%;
+        font-size: x-large;
+    }
+
+    .lista-servicios h4 {
+        font-size: larger;
+    }
+
+    .texto-servicios h4 {
+        font-size: larger;
+        margin-bottom: 5%;
+    }
+
+    .tarjetas-productos {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .nav-link.active{
+        color: #dab785;
+    }
+}
+
+@media screen and (max-width: 922px) {
+    .perro-gafas-verdes {
+        width: 100%;
+        height: 100%;
+    }
+
+    .texto-servicios {
+        margin: 2% 7% 10% 0%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .inauguracion {
+        background-image: url(../img/sec-inauguracion-2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        background-attachment: fixed;
+        transition: 2s;
+        height: 100vh;
+    }
+
+    .perro-gafas-verdes {
+        display: none;
+    }
+
+    .texto-inauguracion h3 {
+        background-color: #171c25d0;
+        transition: 2s;
+        padding: 0.5%;
+    }
+
+    .texto-inauguracion p {
+        background-color: #171c25d0;
+        transition: 2s;
+        padding: 0.5%;
+        margin: 3%;
+    }
+
+    .texto-inauguracion h4 {
+        background-color: #171c25d0;
+        transition: 2s;
+        padding: 0.5%;
+    }
+
+    .perrito-beige {
+        display: none;
+    }
+
+    .servicios {
+        align-items: center;
+    }
+
+    .accordion {
+        width: 90%;
+    }
+
+    .texto-servicios {
+        font-size: x-large;
+        border-left: 1px solid rgb(73, 71, 71);
+        margin: 0%;
+        margin-right: 8%;
+        padding-left: 6%;
+    }
+
+    .tarjetas-productos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+    }
+    .wpp-fixed {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+@media screen and (max-width:800px) {
+    .grid-galeria{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grid-item{
+        grid-column: span 1;
+    }
+
+    .wpp-fixed {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    header nav a img {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+    }
+
+    .hero{
+        height: 65vh;
+    }
+
+    .introduccion h3 {
+        font-size: 200%;
+    }
+
+    .introduccion p {
+        font-size: 120%;
+    }
+
+    .reserva a {
+        font-size: 190%;
+    }
+
+    .inauguracion{
+        height: 80vh;
+    }
+    
+    .texto-inauguracion{
+        font-size: 140% ;
+    }
+
+    .contacto{
+        font-size: large;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .contacto h3{
+        font-size: x-large;
+    }
+
+    .info-info{
+        padding-bottom: 4%;
+    }
+
+    .form {
+        width: 50%;
+        padding-left: 0%;
+        border-left: 0px;
+        padding-top: 10%;
+        border-top: 1px solid rgb(73, 71, 71);
+    }
+
+    footer{
+        font-size: small;
+    }
+
+    .wpp-fixed {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    h2 {
+        font-size: x-large;
+    }
+
+    header nav a img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .introduccion h3 {
+        font-size: 170%;
+    }
+
+    .introduccion p {
+        font-size: 100%;
+    }
+
+    .reserva a {
+        font-size: 150%;
+        margin-top: 1%;
+    }
+
+    .texto-inauguracion{
+        font-size: 100% ;
+        margin-right: 2%;
+    }
+
+    .servicios {
+        align-items: center;
+        font-size: large;
+    }
+
+    .lista-servicios{
+        font-size: large;
+    }
+
+    .texto-servicios {
+        font-size: large;
+    }
+
+    .texto-servicios p {
+        font-size: large;
+    }
+
+    .productos h3 {
+        font-size: x-large;
+    }
+
+    .tarjetas-productos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr)
+    }
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2.5% ;
+    }
+
+    .img1, .img4, .img6, .img7{
+        display: none;
+    }
+
+    .wpp-fixed {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    h2 {
+        font-size: large;
+    }
+
+    header nav a img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .hero{
+        height: 80vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .reserva a {
+        width: 100%;
+        font-size: 110%;
+        margin-left: 10%;
+    }
+
+    .introduccion{
+        width: 100%;
+    }
+
+    .servicios {
+        font-size: medium;
+        flex-direction: column;
+    }
+
+    .lista-servicios{
+        font-size: medium;
+    }
+
+    .texto-servicios {
+        border-left: none;
+        padding-top: 5%;
+        border-top: 1px solid rgb(73, 71, 71);
+        font-size: medium;
+    }
+
+    .texto-servicios p {
+        font-size: medium;
+    }
+
+    .productos h3 {
+        font-size: larger;
+    }
+
+    .tarjetas-productos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        padding: 0% 3% 3% 3%;
+        gap: 0%;
+    }
+
+    .grid-galeria {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        column-gap: 2.5% ;
+    }
+
+    .img3, .img5{
+        display: none;
+    }
+
+    .wpp-fixed {
+        display: none;
+    }
+
+    .footer-principal{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .div-logo-footer{
+        display: none;
+    }
+
+    .medios-de-pago{
+        padding: 2% 0% 2% 0%;
+    }
+}

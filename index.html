@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/bone-icon.png" type="image/png" />
+    <!--CSS Bootstrap 5.1-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--CSS propio-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Small Paws Estética Canina</title>
+</head>
+
+<body>
+    <header>
+        <!--Nav Bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo-smallpaws.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Inicio
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#servicios">Servicios</a></li>
+                                <li><a class="dropdown-item" href="#productos">Productos</a></li>
+                                <li><a class="dropdown-item" href="#grid-clientes">Nuestros Clientes</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Ofertas</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/servicios.html">Servicios</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/sobrenosotros.html">Sobre
+                                Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/comollegar.html">Cómo
+                                llegar</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Escriba aquí" aria-label="Search">
+                        <button class="btn btn-outline" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="introduccion">
+                <h3>Expertos en peluquería canina</h3>
+                <p>Nos especializamos en cortes de raza para mascotas de tamaño pequeño a mediano</p>
+            </div>
+            <div class="reserva">
+                <a class="btn btn-lg" href="https://api.whatsapp.com/message/HHNGTJKENMDDL1? 
+                autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer" role="button">Reservá tu turno!</a>
+            </div>
+        </section>
+
+        <section class="inauguracion">
+            <div class="perrito-lentes-amarillos">
+                <img src="./img/sec-inauguracion-1.png" alt="Perrito con lentes amarillos">
+            </div>
+            <div class="texto-inauguracion">
+                <h3>Tenemos más de 15 años de experiencia en el rubro</h3>
+                <p>Comenzamos como una peliquería canina en Florida, Estados Unidos, buscando
+                    insertarnos en un nuevo estilo de vida. Hoy ya estamos inaugurando nuestra nueva
+                    sucursal en Ciudad Jardín, Lomas del Palomar, para brindar los mejores servicios
+                    a la ciudad que nos vió crecer!</p>
+                <h4>Te invitamos a disfrutar de nuestras promociones de apertura!</h4>
+            </div>
+            <div class="perro-gafas-verdes">
+                <img src="./img/sec-inauguracion-2.png" alt="Perro blanco con gafas verdes">
+            </div>
+        </section>
+
+        <section>
+            <h2 id="servicios">Nuestros Servicios</h2>
+        </section>
+
+        <section class="servicios">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Grooming
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Cortes de raza y Full Grooming.</strong> Nos destacamos en el mercado por la profesionalidad de nuestros cortes de raza, que realzan las mejores características de cada ejemplar, logrando así que cada uno de nuestros clientes obtenga el mejor servicio posible.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Baño
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Baños completos.</strong> Realizamos servicios de baño completo con productos de alta calidad para cuidar a nuestros amigos peludos. Nuestra prioridad es y será por siempre la conformidad y bienestar de nuestros clientes perrunos.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Higiene bucodental y de oidos
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Higiene completa: bucodental, de oídos y de glándula.</strong> Es de vital importancia mantener la sulud de nuestros mejores amigos, y en ellos, su salud depende directamente de su higiene. Por eso, no podemos dejar de lado el servicio completo de de higiene para perros. El servicio completo incluye la limpieza bucal, dental, de oídos y de glándula.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Corte de uñas
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Corte de uñas.</strong> A cuidar las patitas de nuestras mascotas! Es fundamental para el cuidado del cuerpo de los canes mantener sus uñas cortas y asegurándose de que tengan todo lo necesario para seguir creciendo sanas y fuertes.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Guardería
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Guardería.</strong> Queremos que no te preocupes por tu mascota al momento de viajar! En nuestra guardería, vas a poder dejar a tus mejores amigos peludos en buenas manos y sin ningún tipo de preocupación por ellos. Estaremos constantemente en contacto para que puedas tener un seguimiento activo y cuidado del servicio de guardería.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="perrito-beige">
+                <img src="./img/sec-servicios.png" alt="lindo perrito mirando a la cámara con cara de yo no fui">
+            </div>
+
+            <!--<div class="texto-servicios">
+                <h4>Acercate a nuestro local para recibir descuentos y promociones exclusivas!</h4>
+                <p>Tenemos combos especiales para todas las necesidades.</p>
+            </div>-->
+        </section>
+
+        <section class="productos">
+            <h3 id="productos">Productos</h3>
+
+            <!--5 tarjetas de productos-->
+            <div class="tarjetas-productos">
+                <div class="tarjetitas">
+                    <img src="./img/ropita1.jpg" alt="Ejemplo de producto">
+                    <h3>Producto 1</h3>
+                    <button type="button" class="btn btn-sm">Seleccionar</button>
+                </div>
+                <div class="tarjetitas">
+                    <img src="./img/ropita2.jpg" alt="Ejemplo de producto">
+                    <h3>Producto 2</h3>
+                    <button type="button" class="btn btn-sm">Seleccionar</button>
+                </div>
+                <div class="tarjetitas">
+                    <img src="./img/ropita3.jpg" alt="Ejemplo de producto">
+                    <h3>Producto 3</h3>
+                    <button type="button" class="btn btn-sm">Seleccionar</button>
+                </div>
+                <div class="tarjetitas">
+                    <img src="./img/ropita4.jpg" alt="Ejemplo de producto">
+                    <h3>Producto 4</h3>
+                    <button type="button" class="seleccionar-producto btn btn-sm">Seleccionar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-clientes" id="grid-clientes">
+            <div>
+                <h2>Nuestros Clientes</h2>
+            </div>
+            <div class="grid-galeria">
+                <div class="grid-item img1">
+                    <img src="./img/grid1.jpg" alt="perrito semi acostado">
+                </div>
+                <div class="grid-item">
+                    <img src="./img/grid2.jpg" alt="perrito posando">
+                </div>
+                <div class="grid-item img3">
+                    <img src="./img/grid3.jpg" alt="cachorro con chalecho a rayas">
+                </div>
+                <div class="grid-item">
+                    <img src="./img/grid4.jpg" alt="perrito con ropa de bananas">
+                </div>
+                <div class="grid-item img5">
+                    <img src="./img/grid5.jpg" alt="perriito con un saco y un pañuelo">
+                </div>
+                <div class="grid-item img6">
+                    <img src="./img/grid6.jpg" alt="perrito con un tacho de comida">
+                </div>
+                <div class="grid-item img7">
+                    <img src="./img/grid7.jpg" alt="perrito posando">
+                </div>
+                <div class="grid-item">
+                    <img src="./img/grid8.jpg" alt="perrito posando">
+                </div>
+                <div class="grid-item">
+                    <img src="./img/grid9.jpg" alt="perrito con un piloto amarillo">
+                </div>
+            </div>
+        </section>
+
+        <div>
+            <a href="https://api.whatsapp.com/message/HHNGTJKENMDDL1? 
+                autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer"><img src="./img/whatsapp.png"
+                    alt="logo whatsapp" class="wpp-fixed"></a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-principal">
+            <div class="div-logo-footer">
+                <a href="./index.html"><img src="./img/logo-smallpaws.png" alt="Logo" class="logo-inf"></a>
+            </div>
+
+            <div>
+                <a href="./index.html">
+                    <button type="button" class="btn btn-sm">↑ Volver arriba ↑</button>
+                </a>
+            </div>
+
+            <div class="medios-de-pago">
+                <div class="img-footer">
+                    <img src="./img/tarjeta-de-credito.png" class="icons">
+                    <img src="./img/proteger.png" class="icons">
+                </div>
+
+                <div class="texto-footer">
+                    <p>Consultar medios de pago</p>
+                    <p>Sitio seguro: protegemos tus datos</p>
+                </div>
+            </div>
+        </div>
+        <p class="derechos-de-autor">© 2023 SmallPawsPeluqueríaCanina | Vixi Design Studio</p>
+    </footer>
+    <!--BOOTSTRAP JAVASCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
