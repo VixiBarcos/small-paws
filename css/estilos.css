@@ -1,0 +1,525 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Neucha', cursive; }
+
+a {
+  text-decoration: none;
+  color: #0f0f0f; }
+
+h2 {
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  color: #1f2632;
+  background-color: #dab785;
+  padding: 1.5%;
+  margin: 0%; }
+
+h3,
+p {
+  margin: 0%; }
+
+.btn {
+  color: #dab785;
+  border-color: #dab785; }
+  .btn:hover {
+    color: #293241;
+    background-color: #dab785;
+    transition: all 1s ease;
+    cursor: pointer; }
+
+header {
+  z-index: 2px;
+  /*h1 {}*/ }
+  header nav {
+    background-color: #293241;
+    color: #dab785;
+    -webkit-box-shadow: inset -9px -74px 38px -76px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset -9px -74px 38px -76px rgba(0, 0, 0, 0.75);
+    box-shadow: inset -9px -74px 38px -76px rgba(0, 0, 0, 0.75); }
+    header nav div a img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%; }
+    header nav div div ul .nav-item {
+      /*ul {
+                            li {
+                                a {}
+                            }
+
+                            li {
+                                a {}
+                            }
+
+                            li {
+                                a {}
+                            }
+
+                            li {
+                                hr {}
+                            }
+
+                            li {
+                                a {}
+                            }
+                        }
+
+                        li {}
+
+                        li {}
+
+                        li {}
+
+                        li {}*/ }
+      header nav div div ul .nav-item .nav-link {
+        color: #dab785;
+        font-size: x-large;
+        text-align: center;
+        border-right: #dab785; }
+        header nav div div ul .nav-item .nav-link:hover {
+          color: #293241;
+          background-color: #dab785e3;
+          border-color: #dab785;
+          transition: all 1s; }
+
+/*-------------------------------MAIN-INDEX-------------------------------*/
+main {
+  /*------------------------SEGUNDA SECCIÓN INDEX------------------------*/ }
+  main .hero {
+    background-image: url("../img/fondo-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 80vh;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    text-align: center; }
+    main .hero .introduccion {
+      width: 50%; }
+      main .hero .introduccion h3 {
+        color: #101723;
+        font-size: 340%;
+        font-weight: bold;
+        margin: 6% 6% 0% 4%; }
+      main .hero .introduccion p {
+        font-size: 250%;
+        text-align: center; }
+    main .hero .reserva {
+      margin-bottom: 2%;
+      margin-right: 10%;
+      width: 30%;
+      margin-top: 7%; }
+      main .hero .reserva a {
+        font-size: 300%;
+        color: #dab785;
+        border-color: #293241;
+        background-color: #293241b4; }
+        main .hero .reserva a:hover {
+          background-color: #1d2534;
+          color: #dab785;
+          transition: all 1s ease;
+          box-shadow: 14px 13px 16px -5px rgba(0, 0, 0, 0.7);
+          -webkit-box-shadow: 14px 13px 16px -5px rgba(0, 0, 0, 0.7);
+          -moz-box-shadow: 14px 13px 16px -5px rgba(0, 0, 0, 0.7); }
+  main .inauguracion {
+    background-color: #293241;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    -webkit-box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
+    /*-----------------------------SERVICIOS----------------------------*/
+    /*-----------------------------PRODUCTOS----------------------------*/
+    /*----------------------GALERÍA GRIDS----------------------*/ }
+    main .inauguracion .perritos-lentes-amarillos {
+      width: 65%;
+      height: 65%;
+      display: flex;
+      justify-content: start; }
+      main .inauguracion .perritos-lentes-amarillos .texto-inauguracion {
+        color: #dab785;
+        font-size: x-large;
+        width: 140%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+        main .inauguracion .perritos-lentes-amarillos .texto-inauguracion h3 {
+          font-size: xx-large;
+          font-weight: bold;
+          margin-top: 5%; }
+        main .inauguracion .perritos-lentes-amarillos .texto-inauguracion p {
+          margin-bottom: 3%; }
+        main .inauguracion .perritos-lentes-amarillos .texto-inauguracion h4 {
+          font-size: x-large;
+          font-weight: bold; }
+      main .inauguracion .perritos-lentes-amarillos .perro-gafas-verdes {
+        width: 110%;
+        height: 110%;
+        display: flex;
+        justify-content: end; }
+    main .inauguracion .servicios {
+      height: 60%;
+      background-color: #dab785;
+      font-size: x-large;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: end;
+      -webkit-box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75);
+      box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75); }
+      main .inauguracion .servicios .accordion {
+        width: 60%; }
+      main .inauguracion .servicios .accordion-item {
+        color: #dab785;
+        background-color: #293241;
+        width: 100%; }
+        main .inauguracion .servicios .accordion-item h2 .accordion-button {
+          font-size: x-large;
+          background-color: #dab785;
+          color: #293241; }
+          main .inauguracion .servicios .accordion-item h2 .accordion-button:not(.collapsed) {
+            background-color: #dab785;
+            color: #293241; }
+          main .inauguracion .servicios .accordion-item h2 .accordion-button:not(.collapsed)::after {
+            color: #293241; }
+        main .inauguracion .servicios .accordion-item .accordion-collapse .accordion-body {
+          font-size: x-large; }
+    main .inauguracion .perrito-beige img {
+      width: 80%;
+      height: 80%; }
+    main .inauguracion .productos h3 {
+      font-size: xx-large;
+      text-align: center;
+      padding: 2%;
+      background-color: #101723;
+      color: #dab785; }
+    main .inauguracion .productos .tarjetas-productos {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 4%;
+      padding: 0% 6% 4% 6%;
+      font-size: 130%;
+      background-color: #101723;
+      color: #dab785;
+      justify-items: center; }
+      main .inauguracion .productos .tarjetas-productos .tarjetitas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.5%;
+        border: #dab785 solid; }
+        main .inauguracion .productos .tarjetas-productos .tarjetitas img {
+          width: 100%;
+          height: 80%;
+          border: #dab785 solid; }
+        main .inauguracion .productos .tarjetas-productos .tarjetitas h3 {
+          text-align: center;
+          margin-bottom: 2%; }
+    main .inauguracion .grid-clientes .grid-galeria {
+      width: 100%;
+      height: 70%;
+      background-color: #dab785;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 30%;
+      gap: 1.5%;
+      padding: 3%; }
+      main .inauguracion .grid-clientes .grid-galeria .grid-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        -webkit-box-shadow: 10px 10px 18px -1px #474747;
+        -moz-box-shadow: 10px 10px 18px -1px #474747;
+        box-shadow: 10px 10px 18px -1px #474747; }
+      main .inauguracion .grid-clientes .grid-galeria .img1 {
+        grid-column: span 2; }
+      main .inauguracion .grid-clientes .grid-galeria .img6 {
+        grid-column: span 2; }
+      main .inauguracion .grid-clientes .grid-galeria .img7 {
+        grid-column: span 2; }
+    main .inauguracion div a .wpp-fixed {
+      width: 60px;
+      height: 60px;
+      position: fixed;
+      right: 50px;
+      bottom: 50px; }
+
+/*---------------------------SOBRE NOSOTROS----------------------------*/
+/*main{
+    section{
+        h2{}
+    }
+    .presentacion{
+        h3{
+
+        }
+        p{
+
+        }
+    }
+    div{
+        a{}
+    }
+}*/
+footer {
+  background-color: #293241; }
+  footer .footer-principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center; }
+    footer .footer-principal .div-logo-footer .logo-inf {
+      width: 40%;
+      height: 40%;
+      border-radius: 50%;
+      padding-top: 1%;
+      padding-left: 1%; }
+    footer .footer-principal .medios-de-pago {
+      display: flex; }
+      footer .footer-principal .medios-de-pago .img-footer {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3%; }
+        footer .footer-principal .medios-de-pago .img-footer .icons {
+          width: 25px;
+          height: 25px; }
+  footer .derechos-de-autor {
+    background-color: #252d3b;
+    color: #dab785;
+    text-align: center; }
+
+@media screen and (max-width: 1075px) {
+  .hero .introduccion .introduccion h3 {
+    font-size: 270%; }
+  .hero .introduccion .introduccion p {
+    font-size: 200%; }
+  div .wpp-fixed {
+    right: 20px;
+    bottom: 20px; } }
+
+@media screen and (max-width: 1060px) {
+  .inauguracion .texto-inauguracion {
+    font-size: larger; } }
+
+@media screen and (max-width: 1000px) {
+  .hero .introduccion {
+    width: 60%; }
+    .hero .introduccion h3 {
+      font-size: 260%;
+      padding-bottom: 4%; }
+    .hero .introduccion p {
+      width: 70%;
+      background-color: #dab785;
+      transition: 2s;
+      margin-left: 14%;
+      padding: 1%;
+      font-size: 180%; }
+  .hero .reserva .btn {
+    font-size: 250%;
+    margin-top: 2%; }
+  .inauguracion .perrito-lentes-amarillos {
+    display: none; }
+  .inauguracion .texto-inauguracion {
+    margin-left: 4%;
+    font-size: x-large; }
+  .productos .tarjetas-productos {
+    font-size: 80%; } }
+
+@media screen and (max-width: 991px) {
+  .nav-link.active {
+    color: #dab785; } }
+
+@media screen and (max-width: 922px) {
+  .perro-gafas-verdes {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (max-width: 900px) {
+  .inauguracion {
+    background-image: url(../img/sec-inauguracion-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-attachment: fixed;
+    transition: 2s;
+    height: 100vh; }
+    .inauguracion .texto-inauguracion h3 {
+      background-color: #171c25d0;
+      transition: 2s;
+      padding: 0.5%; }
+    .inauguracion .texto-inauguracion p {
+      background-color: #171c25d0;
+      transition: 2s;
+      padding: 0.5%;
+      margin: 3%; }
+    .inauguracion .texto-inauguracion h4 {
+      background-color: #171c25d0;
+      transition: 2s;
+      padding: 0.5%; }
+    .inauguracion .perro-gafas-verdes {
+      display: none; }
+  .servicios {
+    align-items: center; }
+    .servicios .accordion {
+      width: 90%; }
+    .servicios .perrito-beige {
+      display: none; }
+  .productos .tarjetas-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr; }
+  div .wpp-fixed {
+    width: 50px;
+    height: 50px; } }
+
+@media screen and (max-width: 800px) {
+  main .grid-clientes .grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    main .grid-clientes .grid-galeria .grid-item {
+      grid-column: span 1; }
+  main div .wpp-fixed {
+    width: 40px;
+    height: 40px; } }
+
+@media screen and (max-width: 700px) {
+  header nav .containter-fluid a img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%; }
+  main .hero {
+    height: 65vh; }
+    main .hero .introduccion h3 {
+      font-size: 200%; }
+    main .hero .introduccion p {
+      font-size: 120%; }
+    main .hero .reserva .btn {
+      font-size: 190%; }
+  main .inauguracion {
+    height: 80vh; }
+    main .inauguracion .texto-inauguracion {
+      font-size: 140%; }
+  main .contacto {
+    font-size: large;
+    height: 100%;
+    flex-direction: column; }
+    main .contacto .info-contacto a h3 {
+      font-size: x-large; }
+    main .contacto .info-contacto .contacto-icons .info-info {
+      padding-bottom: 4%; }
+    main .contacto .form {
+      width: 50%;
+      padding-left: 0%;
+      border-left: 0px;
+      padding-top: 10%;
+      border-top: 1px solid #494747; }
+  main div .wpp-fixed {
+    width: 30px;
+    height: 30px; }
+  footer {
+    font-size: small; } }
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: x-large; }
+  header nav .containter-fluid a img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%; }
+  main .hero .introduccion h3 {
+    font-size: 170%; }
+  main .hero .introduccion p {
+    font-size: 100%; }
+  main .hero .reserva .btn {
+    font-size: 150%;
+    margin-top: 1%; }
+  main .inauguracion .texto-inauguracion {
+    font-size: 100%;
+    margin-right: 2%; }
+  main .servicios {
+    align-items: center;
+    font-size: large; }
+  main .productos h3 {
+    font-size: x-large; }
+  main .productos .tarjetas-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+  main .grid-clientes .grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.5%; }
+  main .grid-clientes .img1,
+  main .grid-clientes .img4,
+  main .grid-clientes .img6,
+  main .grid-clientes .img7 {
+    display: none; }
+  main div .wpp-fixed {
+    width: 25px;
+    height: 25px; } }
+
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: large; }
+  header nav .containter-fluid a img {
+    width: 3rem;
+    height: 3rem; }
+  main .hero {
+    height: 80vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+    main .hero .introduccion {
+      width: 100%; }
+    main .hero .reserva .btn {
+      width: 100%;
+      font-size: 110%;
+      margin-left: 10%; }
+  main .servicios {
+    font-size: medium;
+    flex-direction: column; }
+  main .productos h3 {
+    font-size: larger; }
+  main .productos .tarjetas-productos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0% 3% 3% 3%;
+    gap: 0%; }
+  main .grid-clientes .grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    column-gap: 2.5%; }
+    main .grid-clientes .grid-galeria .img3,
+    main .grid-clientes .grid-galeria .img5 {
+      display: none; }
+  main div .wpp-fixed {
+    display: none; }
+  footer .footer-principal {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr); }
+    footer .footer-principal .div-logo-footer {
+      display: none; }
+    footer .footer-principal .medios-de-pago {
+      padding: 2% 0% 2% 0%; } }

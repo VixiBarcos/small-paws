@@ -141,6 +141,13 @@ header nav a img {
     box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
 }
 
+.perrito-lentes-amarillos {
+    width: 65%;
+    height: 65%;
+    display: flex;
+    justify-content: start;
+}
+
 .texto-inauguracion {
     color: #dab785;
     font-size: x-large;
@@ -167,13 +174,6 @@ header nav a img {
 .texto-inauguracion h4 {
     font-size: x-large;
     font-weight: bold;
-}
-
-.perrito-lentes-amarillos {
-    width: 65%;
-    height: 65%;
-    display: flex;
-    justify-content: start;
 }
 
 .perro-gafas-verdes {
@@ -231,7 +231,7 @@ header nav a img {
     height: 80%;
 }
 
-.lista-servicios {
+/*.lista-servicios {
     font-size: x-large;
     text-align: left;
     margin-left: 6%;
@@ -257,7 +257,7 @@ header nav a img {
     font-size: x-large;
     text-align: center;
 }
-
+*/
 
 /*-----------------------------PRODUCTOS----------------------------*/
 
@@ -504,13 +504,13 @@ footer {
     margin-right: 3%;
 }
 
-.volver-arriba {
+/*.volver-arriba {
     background-color: #dab785;
     width: 100px;
     border-radius: 10%;
     color: #293241;
     padding: 1%;
-}
+}*/
 
 .icons {
     width: 25px;
@@ -770,13 +770,13 @@ p {
         border-top: 1px solid rgb(73, 71, 71);
     }
 
-    footer{
-        font-size: small;
-    }
-
     .wpp-fixed {
         width: 30px;
         height: 30px;
+    }
+
+    footer{
+        font-size: small;
     }
 }
 
@@ -786,8 +786,8 @@ p {
     }
 
     header nav a img {
-        width: 8rem;
-        height: 8rem;
+        width: 6rem;
+        height: 6rem;
     }
 
     .introduccion h3 {

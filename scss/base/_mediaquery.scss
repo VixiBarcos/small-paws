@@ -1,0 +1,440 @@
+@media screen and (max-width:1075px) {
+    .hero {
+        .introduccion {
+            .introduccion h3 {
+                font-size: 270%;
+            }
+
+            .introduccion p {
+                font-size: 200%;
+            }
+        }
+    }
+
+    div {
+        .wpp-fixed {
+            right: 20px;
+            bottom: 20px;
+        }
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .inauguracion {
+        .texto-inauguracion {
+            font-size: larger;
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .hero {
+        .introduccion {
+            width: 60%;
+
+            h3 {
+                font-size: 260%;
+                padding-bottom: 4%;
+            }
+
+            p {
+                width: 70%;
+                background-color: #dab785;
+                transition: 2s;
+                margin-left: 14%;
+                padding: 1%;
+                font-size: 180%;
+            }
+        }
+
+        .reserva {
+            .btn {
+                font-size: 250%;
+                margin-top: 2%;
+            }
+        }
+    }
+
+    .inauguracion {
+        .perrito-lentes-amarillos {
+            display: none;
+        }
+
+        .texto-inauguracion {
+            margin-left: 4%;
+            font-size: x-large;
+        }
+    }
+
+    .productos {
+        .tarjetas-productos {
+            font-size: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav-link.active {
+        color: #dab785;
+    }
+}
+
+@media screen and (max-width: 922px) {
+    .perro-gafas-verdes {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .inauguracion {
+        background-image: url(../img/sec-inauguracion-2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        background-attachment: fixed;
+        transition: 2s;
+        height: 100vh;
+
+        .texto-inauguracion {
+            h3 {
+                background-color: #171c25d0;
+                transition: 2s;
+                padding: 0.5%;
+            }
+
+            p {
+                background-color: #171c25d0;
+                transition: 2s;
+                padding: 0.5%;
+                margin: 3%;
+            }
+
+            h4 {
+                background-color: #171c25d0;
+                transition: 2s;
+                padding: 0.5%;
+            }
+        }
+
+        .perro-gafas-verdes {
+            display: none;
+        }
+    }
+
+    .servicios {
+        align-items: center;
+
+        .accordion {
+            width: 90%;
+        }
+
+        .perrito-beige {
+            display: none;
+        }
+    }
+
+    .productos {
+        .tarjetas-productos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+        }
+    }
+
+    div {
+        .wpp-fixed {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    main {
+        .grid-clientes {
+            .grid-galeria {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+
+                .grid-item {
+                    grid-column: span 1;
+                }
+            }
+        }
+
+        div {
+            .wpp-fixed {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    header {
+        nav {
+            .containter-fluid {
+                a {
+                    img {
+                        width: 8rem;
+                        height: 8rem;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .hero {
+            height: 65vh;
+
+            .introduccion {
+                h3 {
+                    font-size: 200%;
+                }
+
+                p {
+                    font-size: 120%;
+                }
+            }
+
+            .reserva {
+                .btn {
+                    font-size: 190%;
+                }
+            }
+        }
+
+        .inauguracion {
+            height: 80vh;
+
+            .texto-inauguracion {
+                font-size: 140%;
+            }
+        }
+
+        .contacto {
+            font-size: large;
+            height: 100%;
+            flex-direction: column;
+
+            .info-contacto {
+                a {
+                    h3 {
+                        font-size: x-large;
+                    }
+                }
+
+                .contacto-icons {
+                    .info-info {
+                        padding-bottom: 4%;
+                    }
+                }
+            }
+
+            .form {
+                width: 50%;
+                padding-left: 0%;
+                border-left: 0px;
+                padding-top: 10%;
+                border-top: 1px solid rgb(73, 71, 71);
+            }
+        }
+
+        div {
+            .wpp-fixed {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    footer {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:500px) {
+    h2 {
+        font-size: x-large;
+    }
+
+    header {
+        nav {
+            .containter-fluid {
+                a {
+                    img {
+                        width: 6rem;
+                        height: 6rem;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .hero {
+            .introduccion {
+                h3 {
+                    font-size: 170%;
+                }
+
+                p {
+                    font-size: 100%;
+                }
+            }
+
+            .reserva {
+                .btn {
+                    font-size: 150%;
+                    margin-top: 1%;
+                }
+            }
+        }
+
+        .inauguracion {
+            .texto-inauguracion {
+                font-size: 100%;
+                margin-right: 2%;
+            }
+        }
+
+        .servicios {
+            align-items: center;
+            font-size: large;
+        }
+
+        .productos {
+            h3 {
+                font-size: x-large;
+            }
+
+            .tarjetas-productos {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, 1fr)
+            }
+        }
+
+        .grid-clientes {
+            .grid-galeria {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 2.5%;
+            }
+
+            .img1,
+            .img4,
+            .img6,
+            .img7 {
+                display: none;
+            }
+        }
+
+        div {
+            .wpp-fixed {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h2 {
+        font-size: large;
+    }
+
+    header {
+        nav {
+            .containter-fluid {
+                a {
+                    img {
+                        width: 3rem;
+                        height: 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        .hero {
+            height: 80vh;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+            .introduccion {
+                width: 100%;
+            }
+
+            .reserva {
+                .btn {
+                    width: 100%;
+                    font-size: 110%;
+                    margin-left: 10%;
+                }
+            }
+        }
+
+        .servicios {
+            font-size: medium;
+            flex-direction: column;
+        }
+
+        .productos {
+            h3 {
+                font-size: larger;
+            }
+
+            .tarjetas-productos {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                padding: 0% 3% 3% 3%;
+                gap: 0%;
+            }
+        }
+
+        .grid-clientes {
+            .grid-galeria {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                column-gap: 2.5%;
+
+                .img3,
+                .img5 {
+                    display: none;
+                }
+            }
+        }
+
+        div {
+            .wpp-fixed {
+                display: none;
+            }
+        }
+    }
+
+    footer {
+        .footer-principal {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+            .div-logo-footer {
+                display: none;
+            }
+
+            .medios-de-pago {
+                padding: 2% 0% 2% 0%;
+            }
+        }
+    }
+}

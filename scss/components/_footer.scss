@@ -1,0 +1,43 @@
+footer {
+    background-color: #293241;
+
+    .footer-principal {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+
+        .div-logo-footer {
+            .logo-inf {
+                width: 40%;
+                height: 40%;
+                border-radius: 50%;
+                padding-top: 1%;
+                padding-left: 1%;
+            }
+        }
+
+        .medios-de-pago {
+            display: flex;
+
+            .img-footer {
+                display: flex;
+                flex-direction: column;
+                margin-right: 3%;
+
+                .icons {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .derechos-de-autor {
+        background-color: #252d3b;
+        color: #dab785;
+        text-align: center;
+    }
+}

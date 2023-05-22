@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Neucha', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    color: #1f2632;
+    background-color: #dab785;
+    padding: 1.5%;
+    margin: 0%;
+}
+
+h3,
+p {
+    margin: 0%;
+}
+
+.btn {
+    color: #dab785;
+    border-color: #dab785;
+
+    &:hover {
+        color: #293241;
+        background-color: #dab785;
+        transition: all 1s ease;
+        cursor: pointer;
+    }
+}
