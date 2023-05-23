@@ -34,6 +34,7 @@ p {
     transition: all 1s ease;
     cursor: pointer; }
 
+/*----------------paleta de colores---------------*/
 header {
   z-index: 2px;
   /*h1 {}*/ }
@@ -90,7 +91,10 @@ header {
 
 /*-------------------------------MAIN-INDEX-------------------------------*/
 main {
-  /*------------------------SEGUNDA SECCIÓN INDEX------------------------*/ }
+  /*------------------------SEGUNDA SECCIÓN INDEX------------------------*/
+  /*-----------------------------SERVICIOS----------------------------*/
+  /*-----------------------------PRODUCTOS----------------------------*/
+  /*----------------------GALERÍA GRIDS----------------------*/ }
   main .hero {
     background-image: url("../img/fondo-hero.jpg");
     background-repeat: no-repeat;
@@ -140,144 +144,234 @@ main {
     align-items: end;
     -webkit-box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
-    box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75);
-    /*-----------------------------SERVICIOS----------------------------*/
-    /*-----------------------------PRODUCTOS----------------------------*/
-    /*----------------------GALERÍA GRIDS----------------------*/ }
-    main .inauguracion .perritos-lentes-amarillos {
+    box-shadow: inset 2px 1px 30px 9px rgba(0, 0, 0, 0.75); }
+    main .inauguracion .perrito-lentes-amarillos {
       width: 65%;
       height: 65%;
       display: flex;
       justify-content: start; }
-      main .inauguracion .perritos-lentes-amarillos .texto-inauguracion {
-        color: #dab785;
-        font-size: x-large;
-        width: 140%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center; }
-        main .inauguracion .perritos-lentes-amarillos .texto-inauguracion h3 {
-          font-size: xx-large;
-          font-weight: bold;
-          margin-top: 5%; }
-        main .inauguracion .perritos-lentes-amarillos .texto-inauguracion p {
-          margin-bottom: 3%; }
-        main .inauguracion .perritos-lentes-amarillos .texto-inauguracion h4 {
-          font-size: x-large;
-          font-weight: bold; }
-      main .inauguracion .perritos-lentes-amarillos .perro-gafas-verdes {
-        width: 110%;
-        height: 110%;
-        display: flex;
-        justify-content: end; }
-    main .inauguracion .servicios {
-      height: 60%;
-      background-color: #dab785;
+    main .inauguracion .texto-inauguracion {
+      color: #dab785;
       font-size: x-large;
+      width: 140%;
+      height: 100%;
       display: flex;
-      justify-content: space-evenly;
-      align-items: end;
-      -webkit-box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75);
-      -moz-box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75);
-      box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75); }
-      main .inauguracion .servicios .accordion {
-        width: 60%; }
-      main .inauguracion .servicios .accordion-item {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      main .inauguracion .texto-inauguracion h3 {
+        font-size: xx-large;
+        font-weight: bold;
+        margin-top: 5%; }
+      main .inauguracion .texto-inauguracion p {
+        margin-bottom: 3%; }
+      main .inauguracion .texto-inauguracion h4 {
+        font-size: x-large;
+        font-weight: bold; }
+    main .inauguracion .perro-gafas-verdes {
+      width: 110%;
+      height: 110%;
+      display: flex;
+      justify-content: end; }
+  main .servicios {
+    height: 60%;
+    background-color: #dab785;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    -webkit-box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 43px -9px rgba(0, 0, 0, 0.75); }
+    main .servicios .accordion {
+      width: 60%; }
+      main .servicios .accordion .accordion-item {
         color: #dab785;
         background-color: #293241;
         width: 100%; }
-        main .inauguracion .servicios .accordion-item h2 .accordion-button {
+        main .servicios .accordion .accordion-item h2 .accordion-button {
           font-size: x-large;
           background-color: #dab785;
           color: #293241; }
-          main .inauguracion .servicios .accordion-item h2 .accordion-button:not(.collapsed) {
+          main .servicios .accordion .accordion-item h2 .accordion-button:not(.collapsed) {
             background-color: #dab785;
             color: #293241; }
-          main .inauguracion .servicios .accordion-item h2 .accordion-button:not(.collapsed)::after {
+          main .servicios .accordion .accordion-item h2 .accordion-button:not(.collapsed)::after {
             color: #293241; }
-        main .inauguracion .servicios .accordion-item .accordion-collapse .accordion-body {
+        main .servicios .accordion .accordion-item .accordion-collapse .accordion-body {
           font-size: x-large; }
-    main .inauguracion .perrito-beige img {
+    main .servicios .perrito-beige img {
       width: 80%;
       height: 80%; }
-    main .inauguracion .productos h3 {
-      font-size: xx-large;
-      text-align: center;
-      padding: 2%;
-      background-color: #101723;
-      color: #dab785; }
-    main .inauguracion .productos .tarjetas-productos {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 4%;
-      padding: 0% 6% 4% 6%;
-      font-size: 130%;
-      background-color: #101723;
+  main .productos h3 {
+    font-size: xx-large;
+    text-align: center;
+    padding: 2%;
+    background-color: #101723;
+    color: #dab785; }
+  main .productos .tarjetas-productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4%;
+    padding: 0% 6% 4% 6%;
+    font-size: 130%;
+    background-color: #101723;
+    color: #dab785;
+    justify-items: center; }
+    main .productos .tarjetas-productos .tarjetitas {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0.5%;
+      border: #dab785 solid; }
+      main .productos .tarjetas-productos .tarjetitas img {
+        width: 100%;
+        height: 80%;
+        border: #dab785 solid; }
+      main .productos .tarjetas-productos .tarjetitas h3 {
+        text-align: center;
+        margin-bottom: 2%; }
+  main .grid-clientes .grid-galeria {
+    width: 100%;
+    height: 70%;
+    background-color: #dab785;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 30%;
+    gap: 1.5%;
+    padding: 3%; }
+    main .grid-clientes .grid-galeria .grid-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      -webkit-box-shadow: 10px 10px 18px -1px #474747;
+      -moz-box-shadow: 10px 10px 18px -1px #474747;
+      box-shadow: 10px 10px 18px -1px #474747; }
+    main .grid-clientes .grid-galeria .img1 {
+      grid-column: span 2; }
+    main .grid-clientes .grid-galeria .img6 {
+      grid-column: span 2; }
+    main .grid-clientes .grid-galeria .img7 {
+      grid-column: span 2; }
+  main div a .wpp-fixed {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px; }
+
+/*-------------------------------PAGES----------------------------*/
+/*---------------------------SOBRE NOSOTROS----------------------------*/
+main .presentacion {
+  background-color: #101723;
+  color: #dab785;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  text-align: center; }
+  main .presentacion div {
+    margin-top: 7%;
+    width: 70%; }
+    main .presentacion div h3 {
+      font-size: 210%; }
+    main .presentacion div p {
+      font-size: 180%;
+      margin-top: 4%; }
+  main .presentacion img {
+    height: 108%; }
+
+/*---------------------------CÓMO LLEGAR----------------------------*/
+main .como-llegar {
+  background-color: #dab785;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  main .como-llegar div iframe {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    border-color: #101723; }
+  main .como-llegar .info-ubicacion {
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    border: 5px;
+    border: #101723;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-color: #101723;
+    color: #dab785;
+    padding: 2.5%;
+    margin-bottom: 10%;
+    border-radius: 10%;
+    border-style: ridge; }
+    main .como-llegar .info-ubicacion .icons-icons {
+      margin-bottom: 5%;
+      border-bottom: #171c25; }
+      main .como-llegar .info-ubicacion .icons-icons .icons {
+        margin-bottom: 100%; }
+    main .como-llegar .info-ubicacion .info-info {
+      margin-bottom: 5%;
+      border-bottom: #171c25; }
+      main .como-llegar .info-ubicacion .info-info div {
+        margin: 4%; }
+        main .como-llegar .info-ubicacion .info-info div p {
+          font-size: x-large; }
+
+/*---------------------------CONTACTO----------------------------*/
+main .contacto {
+  background-color: #101723;
+  color: #dab785;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: x-large; }
+  main .contacto .info-contacto {
+    display: flex;
+    flex-direction: column; }
+    main .contacto .info-contacto a {
       color: #dab785;
-      justify-items: center; }
-      main .inauguracion .productos .tarjetas-productos .tarjetitas {
+      margin: 3%; }
+      main .contacto .info-contacto a h3 {
+        font-size: xx-large;
+        margin: 5%; }
+    main .contacto .info-contacto .contacto-icons {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: left; }
+      main .contacto .info-contacto .contacto-icons .icons-icons {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0.5%;
-        border: #dab785 solid; }
-        main .inauguracion .productos .tarjetas-productos .tarjetitas img {
-          width: 100%;
-          height: 80%;
-          border: #dab785 solid; }
-        main .inauguracion .productos .tarjetas-productos .tarjetitas h3 {
-          text-align: center;
-          margin-bottom: 2%; }
-    main .inauguracion .grid-clientes .grid-galeria {
-      width: 100%;
-      height: 70%;
-      background-color: #dab785;
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-auto-rows: 30%;
-      gap: 1.5%;
-      padding: 3%; }
-      main .inauguracion .grid-clientes .grid-galeria .grid-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        -webkit-box-shadow: 10px 10px 18px -1px #474747;
-        -moz-box-shadow: 10px 10px 18px -1px #474747;
-        box-shadow: 10px 10px 18px -1px #474747; }
-      main .inauguracion .grid-clientes .grid-galeria .img1 {
-        grid-column: span 2; }
-      main .inauguracion .grid-clientes .grid-galeria .img6 {
-        grid-column: span 2; }
-      main .inauguracion .grid-clientes .grid-galeria .img7 {
-        grid-column: span 2; }
-    main .inauguracion div a .wpp-fixed {
-      width: 60px;
-      height: 60px;
-      position: fixed;
-      right: 50px;
-      bottom: 50px; }
+        justify-content: space-evenly; }
+        main .contacto .info-contacto .contacto-icons .icons-icons a {
+          color: #dab785;
+          margin: 3%; }
+          main .contacto .info-contacto .contacto-icons .icons-icons a .icons {
+            width: 25px;
+            height: 25px; }
+      main .contacto .info-contacto .contacto-icons .info-info a {
+        color: #dab785;
+        margin: 3%; }
+        main .contacto .info-contacto .contacto-icons .info-info a p {
+          color: #dab785;
+          margin: 3%; }
+  main .contacto .form {
+    width: 50%;
+    padding-left: 10%;
+    border-left: 1px solid #494747; }
+    main .contacto .form h3 {
+      font-size: xx-large;
+      margin-bottom: 5%; }
 
-/*---------------------------SOBRE NOSOTROS----------------------------*/
-/*main{
-    section{
-        h2{}
-    }
-    .presentacion{
-        h3{
-
-        }
-        p{
-
-        }
-    }
-    div{
-        a{}
-    }
-}*/
 footer {
   background-color: #293241; }
   footer .footer-principal {
@@ -308,40 +402,50 @@ footer {
     text-align: center; }
 
 @media screen and (max-width: 1075px) {
-  .hero .introduccion .introduccion h3 {
+  main .hero .introduccion .introduccion h3 {
     font-size: 270%; }
-  .hero .introduccion .introduccion p {
+  main .hero .introduccion .introduccion p {
     font-size: 200%; }
-  div .wpp-fixed {
+  main div .wpp-fixed {
     right: 20px;
     bottom: 20px; } }
 
 @media screen and (max-width: 1060px) {
-  .inauguracion .texto-inauguracion {
+  .texto-inauguracion {
     font-size: larger; } }
 
+@media screen and (max-width: 1020px) {
+  main .como-llegar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    main .como-llegar div iframe {
+      margin: 3%;
+      width: 60%;
+      height: 60%; } }
+
 @media screen and (max-width: 1000px) {
-  .hero .introduccion {
+  main .hero .introduccion {
     width: 60%; }
-    .hero .introduccion h3 {
+    main .hero .introduccion h3 {
       font-size: 260%;
       padding-bottom: 4%; }
-    .hero .introduccion p {
+    main .hero .introduccion p {
       width: 70%;
       background-color: #dab785;
       transition: 2s;
       margin-left: 14%;
       padding: 1%;
       font-size: 180%; }
-  .hero .reserva .btn {
+  main .hero .reserva .btn {
     font-size: 250%;
     margin-top: 2%; }
-  .inauguracion .perrito-lentes-amarillos {
+  main .inauguracion .perrito-lentes-amarillos {
     display: none; }
-  .inauguracion .texto-inauguracion {
+  main .inauguracion .texto-inauguracion {
     margin-left: 4%;
     font-size: x-large; }
-  .productos .tarjetas-productos {
+  main .productos .tarjetas-productos {
     font-size: 80%; } }
 
 @media screen and (max-width: 991px) {
@@ -351,10 +455,12 @@ footer {
 @media screen and (max-width: 922px) {
   .perro-gafas-verdes {
     width: 100%;
-    height: 100%; } }
+    height: 100%; }
+  main .presentacion img {
+    height: 104%; } }
 
 @media screen and (max-width: 900px) {
-  .inauguracion {
+  main .inauguracion {
     background-image: url(../img/sec-inauguracion-2.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -362,34 +468,40 @@ footer {
     background-attachment: fixed;
     transition: 2s;
     height: 100vh; }
-    .inauguracion .texto-inauguracion h3 {
+    main .inauguracion .texto-inauguracion h3 {
       background-color: #171c25d0;
       transition: 2s;
       padding: 0.5%; }
-    .inauguracion .texto-inauguracion p {
+    main .inauguracion .texto-inauguracion p {
       background-color: #171c25d0;
       transition: 2s;
       padding: 0.5%;
       margin: 3%; }
-    .inauguracion .texto-inauguracion h4 {
+    main .inauguracion .texto-inauguracion h4 {
       background-color: #171c25d0;
       transition: 2s;
       padding: 0.5%; }
-    .inauguracion .perro-gafas-verdes {
+    main .inauguracion .perro-gafas-verdes {
       display: none; }
-  .servicios {
+  main .servicios {
     align-items: center; }
-    .servicios .accordion {
+    main .servicios .accordion {
       width: 90%; }
-    .servicios .perrito-beige {
+    main .servicios .perrito-beige {
       display: none; }
-  .productos .tarjetas-productos {
+  main .productos .tarjetas-productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr; }
-  div .wpp-fixed {
+  main div .wpp-fixed {
     width: 50px;
-    height: 50px; } }
+    height: 50px; }
+  main .presentacion div {
+    width: 60%; }
+    main .presentacion div h3 {
+      font-size: 180%; }
+    main .presentacion div p {
+      font-size: 160%; } }
 
 @media screen and (max-width: 800px) {
   main .grid-clientes .grid-galeria {
@@ -397,9 +509,13 @@ footer {
     grid-template-columns: repeat(3, 1fr); }
     main .grid-clientes .grid-galeria .grid-item {
       grid-column: span 1; }
-  main div .wpp-fixed {
+  main div a .wpp-fixed {
     width: 40px;
-    height: 40px; } }
+    height: 40px; }
+  main .presentacion div {
+    width: 60%; }
+    main .presentacion div h3 {
+      font-size: 210%; } }
 
 @media screen and (max-width: 700px) {
   header nav .containter-fluid a img {
@@ -432,11 +548,48 @@ footer {
       border-left: 0px;
       padding-top: 10%;
       border-top: 1px solid #494747; }
-  main div .wpp-fixed {
+  main div a .wpp-fixed {
     width: 30px;
-    height: 30px; }
+    height: 30px;
+    right: 20px;
+    bottom: 20px; }
+  main .presentacion div h3 {
+    font-size: 200%; }
+  main .presentacion div p {
+    font-size: 140%; }
   footer {
     font-size: small; } }
+
+@media screen and (max-width: 600px) {
+  main .presentacion div h3 {
+    font-size: 180%; }
+  main .presentacion div p {
+    font-size: 130%; }
+  main .presentacion img {
+    height: 103%; }
+  main div a .wpp-fixed {
+    width: 25px;
+    height: 25px;
+    right: 5px;
+    bottom: 5px; }
+  main .presentacion {
+    background-image: url(../img/sec-presentacion.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-attachment: fixed;
+    transition: 2s;
+    height: 100vh; }
+    main .presentacion div h3 {
+      background-color: #171c25d0;
+      transition: 2s;
+      padding: 0.5%; }
+    main .presentacion div p {
+      background-color: #171c25d0;
+      transition: 2s;
+      padding: 0.5%; }
+    main .presentacion img {
+      display: none; } }
 
 @media screen and (max-width: 500px) {
   h2 {
@@ -473,9 +626,8 @@ footer {
   main .grid-clientes .img6,
   main .grid-clientes .img7 {
     display: none; }
-  main div .wpp-fixed {
-    width: 25px;
-    height: 25px; } }
+  main div a .wpp-fixed {
+    display: none; } }
 
 @media screen and (max-width: 400px) {
   h2 {
@@ -513,8 +665,6 @@ footer {
     main .grid-clientes .grid-galeria .img3,
     main .grid-clientes .grid-galeria .img5 {
       display: none; }
-  main div .wpp-fixed {
-    display: none; }
   footer .footer-principal {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

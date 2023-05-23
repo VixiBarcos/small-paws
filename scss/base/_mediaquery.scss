@@ -1,74 +1,105 @@
 @media screen and (max-width:1075px) {
-    .hero {
-        .introduccion {
-            .introduccion h3 {
-                font-size: 270%;
-            }
-
-            .introduccion p {
-                font-size: 200%;
+    main{
+        .hero {
+            .introduccion {
+                .introduccion h3 {
+                    font-size: 270%;
+                }
+    
+                .introduccion p {
+                    font-size: 200%;
+                }
             }
         }
-    }
-
-    div {
-        .wpp-fixed {
-            right: 20px;
-            bottom: 20px;
+    
+        div {
+            .wpp-fixed {
+                right: 20px;
+                bottom: 20px;
+            }
         }
     }
 }
 
 @media screen and (max-width:1060px) {
-    .inauguracion {
-        .texto-inauguracion {
-            font-size: larger;
+    .texto-inauguracion {
+        font-size: larger;
+    }
+}
+
+@media screen and (max-width:1020px){
+    main{ 
+        .como-llegar{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            div{
+                iframe{
+                    margin: 3%;
+                    width: 60%;
+                    height: 60%;
+                }
+            }
+            .info-ubicacion{
+                .icons-icons{
+                    .icons{
+
+                    }
+                }
+                .info-info{
+                    div{
+                        p{}
+                    }
+                }
+            }
         }
     }
 }
 
 @media screen and (max-width:1000px) {
-    .hero {
-        .introduccion {
-            width: 60%;
+    main {
+        .hero {
+            .introduccion {
+                width: 60%;
 
-            h3 {
-                font-size: 260%;
-                padding-bottom: 4%;
+                h3 {
+                    font-size: 260%;
+                    padding-bottom: 4%;
+                }
+
+                p {
+                    width: 70%;
+                    background-color: #dab785;
+                    transition: 2s;
+                    margin-left: 14%;
+                    padding: 1%;
+                    font-size: 180%;
+                }
             }
 
-            p {
-                width: 70%;
-                background-color: #dab785;
-                transition: 2s;
-                margin-left: 14%;
-                padding: 1%;
-                font-size: 180%;
+            .reserva {
+                .btn {
+                    font-size: 250%;
+                    margin-top: 2%;
+                }
             }
         }
 
-        .reserva {
-            .btn {
-                font-size: 250%;
-                margin-top: 2%;
+        .inauguracion {
+            .perrito-lentes-amarillos {
+                display: none;
+            }
+
+            .texto-inauguracion {
+                margin-left: 4%;
+                font-size: x-large;
             }
         }
-    }
 
-    .inauguracion {
-        .perrito-lentes-amarillos {
-            display: none;
-        }
-
-        .texto-inauguracion {
-            margin-left: 4%;
-            font-size: x-large;
-        }
-    }
-
-    .productos {
-        .tarjetas-productos {
-            font-size: 80%;
+        .productos {
+            .tarjetas-productos {
+                font-size: 80%;
+            }
         }
     }
 }
@@ -84,68 +115,93 @@
         width: 100%;
         height: 100%;
     }
+
+    main {
+        .presentacion {
+            img {
+                height: 104%;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 900px) {
-    .inauguracion {
-        background-image: url(../img/sec-inauguracion-2.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right;
-        background-attachment: fixed;
-        transition: 2s;
-        height: 100vh;
+    main {
+        .inauguracion {
+            background-image: url(../img/sec-inauguracion-2.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            background-attachment: fixed;
+            transition: 2s;
+            height: 100vh;
 
-        .texto-inauguracion {
-            h3 {
-                background-color: #171c25d0;
-                transition: 2s;
-                padding: 0.5%;
+            .texto-inauguracion {
+                h3 {
+                    background-color: #171c25d0;
+                    transition: 2s;
+                    padding: 0.5%;
+                }
+
+                p {
+                    background-color: #171c25d0;
+                    transition: 2s;
+                    padding: 0.5%;
+                    margin: 3%;
+                }
+
+                h4 {
+                    background-color: #171c25d0;
+                    transition: 2s;
+                    padding: 0.5%;
+                }
             }
 
-            p {
-                background-color: #171c25d0;
-                transition: 2s;
-                padding: 0.5%;
-                margin: 3%;
-            }
-
-            h4 {
-                background-color: #171c25d0;
-                transition: 2s;
-                padding: 0.5%;
+            .perro-gafas-verdes {
+                display: none;
             }
         }
 
-        .perro-gafas-verdes {
-            display: none;
+        .servicios {
+            align-items: center;
+
+            .accordion {
+                width: 90%;
+            }
+
+            .perrito-beige {
+                display: none;
+            }
+        }
+
+        .productos {
+            .tarjetas-productos {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 1fr;
+            }
+        }
+
+        div {
+            .wpp-fixed {
+                width: 50px;
+                height: 50px;
+            }
         }
     }
+    main{
+        .presentacion {
+            div {
+                width: 60%;
 
-    .servicios {
-        align-items: center;
+                h3 {
+                    font-size: 180%;
+                }
 
-        .accordion {
-            width: 90%;
-        }
-
-        .perrito-beige {
-            display: none;
-        }
-    }
-
-    .productos {
-        .tarjetas-productos {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 1fr;
-        }
-    }
-
-    div {
-        .wpp-fixed {
-            width: 50px;
-            height: 50px;
+                p {
+                    font-size: 160%;
+                }
+            }
         }
     }
 }
@@ -164,9 +220,24 @@
         }
 
         div {
-            .wpp-fixed {
-                width: 40px;
-                height: 40px;
+            a {
+                .wpp-fixed {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+@media screen and (max-width:800px){}
+    main{
+        .presentacion {
+            div {
+                width: 60%;
+
+                h3 {
+                    font-size: 210%;
+                }
             }
         }
     }
@@ -245,15 +316,90 @@
         }
 
         div {
-            .wpp-fixed {
-                width: 30px;
-                height: 30px;
+            a {
+                .wpp-fixed {
+                    width: 30px;
+                    height: 30px;
+                    right: 20px;
+                    bottom: 20px;
+                }
+            }
+        }
+
+        .presentacion {
+            div {
+                h3 {
+                    font-size: 200%;
+                }
+
+                p {
+                    font-size: 140%;
+                }
             }
         }
     }
 
     footer {
         font-size: small;
+    }
+}
+
+@media screen and (max-width:600px) {
+    main {
+        .presentacion {
+            div {
+                h3 {
+                    font-size: 180%;
+                }
+
+                p {
+                    font-size: 130%;
+                }
+            }
+
+            img {
+                height: 103%;
+            }
+        }
+
+        div {
+            a {
+                .wpp-fixed {
+                    width: 25px;
+                    height: 25px;
+                    right: 5px;
+                    bottom: 5px;
+                }
+            }
+        }
+
+        .presentacion {
+            background-image: url(../img/sec-presentacion.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            background-attachment: fixed;
+            transition: 2s;
+            height: 100vh;
+
+            div {
+                h3 {
+                    background-color: #171c25d0;
+                    transition: 2s;
+                    padding: 0.5%;
+                }
+
+                p {
+                    background-color: #171c25d0;
+                    transition: 2s;
+                    padding: 0.5%;
+                }
+            }
+
+            img {
+                display: none;
+            }
+        }
     }
 }
 
@@ -336,9 +482,10 @@
         }
 
         div {
-            .wpp-fixed {
-                width: 25px;
-                height: 25px;
+            a {
+                .wpp-fixed {
+                    display: none;
+                }
             }
         }
     }
@@ -412,12 +559,6 @@
                 .img5 {
                     display: none;
                 }
-            }
-        }
-
-        div {
-            .wpp-fixed {
-                display: none;
             }
         }
     }
