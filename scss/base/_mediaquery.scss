@@ -1,17 +1,17 @@
 @media screen and (max-width:1075px) {
-    main{
+    main {
         .hero {
             .introduccion {
                 .introduccion h3 {
                     font-size: 270%;
                 }
-    
+
                 .introduccion p {
                     font-size: 200%;
                 }
             }
         }
-    
+
         div {
             .wpp-fixed {
                 right: 20px;
@@ -27,28 +27,25 @@
     }
 }
 
-@media screen and (max-width:1020px){
-    main{ 
-        .como-llegar{
-            display: flex;
+@media screen and (max-width:1020px) {
+    main {
+        .como-llegar {
+            height: auto;
             flex-direction: column;
-            justify-content: center;
-            div{
-                iframe{
-                    margin: 3%;
-                    width: 60%;
-                    height: 60%;
-                }
-            }
-            .info-ubicacion{
-                .icons-icons{
-                    .icons{
 
-                    }
-                }
-                .info-info{
-                    div{
-                        p{}
+            div {
+                margin: 3%;
+            }
+
+            .info-ubicacion {
+                display: block;
+                margin: 0%;
+                margin-bottom: 4%;
+                padding: 0%;
+
+                .icons-icons {
+                    .icons {
+                        display: none;
                     }
                 }
             }
@@ -189,7 +186,8 @@
             }
         }
     }
-    main{
+
+    main {
         .presentacion {
             div {
                 width: 60%;
@@ -229,8 +227,9 @@
         }
     }
 
-@media screen and (max-width:800px){}
-    main{
+    @media screen and (max-width:800px) {}
+
+    main {
         .presentacion {
             div {
                 width: 60%;
@@ -339,6 +338,17 @@
         }
     }
 
+    main {
+        .como-llegar {
+            div {
+                iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
     footer {
         font-size: small;
     }
@@ -398,6 +408,20 @@
 
             img {
                 display: none;
+            }
+        }
+    }
+
+    main{
+        .como-llegar{
+            .info-ubicacion {
+                .info-info{
+                    div{
+                        p{
+                            font-size: large;
+                        }
+                    }
+                }
             }
         }
     }
