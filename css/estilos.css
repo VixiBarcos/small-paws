@@ -75,7 +75,7 @@ main {
   /*-----------------------------PRODUCTOS----------------------------*/
   /*----------------------GALERÍA GRIDS----------------------*/ }
   main .hero {
-    background-image: url("../img/fondo-hero.png");
+    background-image: url("../img/fondo-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
