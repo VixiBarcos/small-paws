@@ -1,5 +1,5 @@
 footer {
-    background-color: #293241;
+    background-color: $color-1-claro;
 
     .footer-principal {
         display: grid;
@@ -16,6 +16,11 @@ footer {
                 border-radius: 50%;
                 padding-top: 1%;
                 padding-left: 1%;
+                transition: all 1s ease;
+
+                &:hover{
+                    transform: scale(1.2);
+                }
             }
         }
 
@@ -36,8 +41,8 @@ footer {
     }
 
     .derechos-de-autor {
-        background-color: #252d3b;
-        color: #dab785;
+        background-color: #1b212a;
+        color: $color-2;
         text-align: center;
     }
 }

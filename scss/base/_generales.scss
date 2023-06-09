@@ -20,7 +20,7 @@ h2 {
     font-weight: bold;
     text-align: center;
     color: #1f2632;
-    background-color: #dab785 ;
+    background-color: $color-2 ;
     padding: 1.5%;
     margin: 0%;
 }
@@ -31,13 +31,14 @@ p {
 }
 
 .btn {
-    color: #dab785;
-    border-color: #dab785;
+    color: $color-2;
+    border-color: $color-2;
+    transition: all 1s ease;
 
     &:hover {
         color: #293241;
-        background-color: #dab785;
-        transition: all 1s ease;
+        background-color: $color-2;
         cursor: pointer;
+        transform: scale(1.2);
     }
 }
